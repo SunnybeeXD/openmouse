@@ -430,6 +430,10 @@ export const MICE: Mouse[] = [
   // ATK / VGN ───────────────────────────────────────────────────────────
   { brand: "ATK", model: "F1 V2 Ultra Max",             status: "supported", req: 1,
     note: "ATK vendor (0x373b, usagePage 0xff02) covered" },
+  { brand: "ATK", model: "F1 V2 Ultimate",             status: "supported", req: 1,
+    note: "Works verified on hardware PID 0x11D9" },
+  { brand: "ATK", model: "A9 Mini+",             status: "supported", req: 1,
+    note: "Works verified on hardware PID 0x1278" },
   { brand: "ATK", model: "VXE Dragonfly R1 Pro",        status: "likely",    req: 3,
     note: "VGN F2 driver (0xfb56/0xfb57) covers Dragonfly F2; R1 Pro needs test" },
   { brand: "VXE", model: "R1 SE+",                      status: "supported", req: 9,
